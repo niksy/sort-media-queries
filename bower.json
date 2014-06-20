@@ -1,0 +1,26 @@
+{
+  "name": "sort-media-queries",
+  "version": "0.0.0",
+  "description": "Sort media queries.",
+  "authors": [
+    "Ivan Nikolić"
+  ],
+  "license": "MIT",
+  "main": "dist/sortMediaQueries.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "keywords": [
+    "sort",
+    "media",
+    "queries"
+  ],
+  "homepage": "https://github.com/niksy/sort-media-queries"
+}
