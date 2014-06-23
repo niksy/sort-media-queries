@@ -1,4 +1,4 @@
-/*! sort-media-queries 0.0.0 - Sort media queries. | Author: Ivan Nikolić, 2014 | License: MIT */
+/*! sort-media-queries 0.1.0 - Sort media queries. | Author: Ivan Nikolić, 2014 | License: MIT */
 ;(function ( root, factory ) {
 	if (typeof define === 'function' && define.amd) {
 		define([], factory);
