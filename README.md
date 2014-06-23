@@ -100,7 +100,7 @@ Tested in IE8+ and all modern browsers.
 
 ## Acknowledgements
 
-Algorithm for media queries sorting is taken from [buildingblocks/grunt-combine-media-queries](https://github.com/buildingblocks/grunt-combine-media-queries) ([original project license](https://github.com/JohnCashmore/grunt-combine-media-queries/blob/master/LICENSE-MIT)). This repo serves only as separate module which can be included in other projects.
+Algorithm for media queries sorting is taken from [buildingblocks/grunt-combine-media-queries](https://github.com/buildingblocks/grunt-combine-media-queries) ([original project license](https://github.com/buildingblocks/grunt-combine-media-queries/blob/master/LICENSE-MIT)). This repo serves only as separate module which can be included in other projects.
 
 ## License
 
