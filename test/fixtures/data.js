@@ -1,4 +1,4 @@
-var fixture = {
+module.exports = {
 	asString: {
 		mixed: {
 			input: [
@@ -192,7 +192,3 @@ var fixture = {
 		}
 	}
 };
-
-if (typeof exports === 'object') {
-	module.exports = fixture;
-}

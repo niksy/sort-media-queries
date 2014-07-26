@@ -1,10 +1,6 @@
-if (typeof exports === 'object') {
-	expect = require('expect.js');
-	fixture = require('./fixtures/data');
-	smq = require('../src/sortMediaQueries');
-} else {
-	smq = window.sortMediaQueries;
-}
+var expect = require('expect.js');
+var fixture = require('./fixtures/data');
+var smq = require('../src/sortMediaQueries');
 
 describe('sort', function(){
 	it('should return empty array if no argument is passed', function(){
