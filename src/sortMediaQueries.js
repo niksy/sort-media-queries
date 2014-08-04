@@ -1,4 +1,4 @@
-var extend = require('extend');
+var extend = require('s-extend');
 var mqTypes = ['blank','all','minWidth','minHeight','maxWidth','maxHeight','print'];
 
 /**
