@@ -1,20 +1,17 @@
 # sort-media-queries
 
-Sort media queries by their applicability.
+Sort media queries.
 
 ## Installation
 
 ```sh
 # Node
-npm install git://github.com/niksy/sort-media-queries.git
-
-# Browser
-bower install niksy/sort-media-queries
+npm install sort-media-queries --save
 ```
 
 ## API
 
-### `sort(list, [propertyName])`
+### `smq(list, [propertyName])`
 
 Returns: `Array`
 
@@ -34,63 +31,15 @@ Type: `String`
 
 Property used to sort objects inside media queries list.
 
-### `sortString(list)`
-
-Returns: `Array`
-
-Sorts media queries with strings as list items.
-
-#### list
-
-Type: `Array`
-
-See [sort → list](#list).
-
-### `sortObject(list, propertyName)`
-
-Returns: `Array`
-
-Sorts media queries with objects as list items using provided property.
-
-#### list
-
-Type: `Array`
-
-See [sort → list](#list).
-
-#### propertyName
-
-Type: `String`
-
-See [sort → propertyName](#propertyName).
-
 ## Examples
 
-### Initalization
-
 ```js
-// Node
 var smq = require('sort-media-queries');
 
-// Require.js
-define(['sort-media-queries'], function ( smq ) {
-	// Code away
-});
-
-// Global browser module
-window.sortMediaQueries;
-```
-
-### Usage
-
-```js
-smq.sort(["screen and (min-width:1278px)","screen and (min-width:100px)","screen and (min-width:99px)"]);
+smq(["screen and (min-width:1278px)","screen and (min-width:100px)","screen and (min-width:99px)"]);
 // ["screen and (min-width:99px)","screen and (min-width:100px)","screen and (min-width:1278px)"]
 
-smq.sortString(["screen and (min-width:1278px)","screen and (min-width:100px)","screen and (min-width:99px)"]);
-// ["screen and (min-width:99px)","screen and (min-width:100px)","screen and (min-width:1278px)"]
-
-smq.sortObject([{"media":"screen and (min-width:1278px)","bar":2},{"media":"screen and (min-width:100px)"},{"media":"screen and (min-width:99px)","foo":1}], 'media');
+smq([{"media":"screen and (min-width:1278px)","bar":2},{"media":"screen and (min-width:100px)"},{"media":"screen and (min-width:99px)","foo":1}], 'media');
 // [{"media":"screen and (min-width:99px)","foo":1},{"media":"screen and (min-width:100px)"},{"media":"screen and (min-width:1278px)","bar":2}]
 ```
 
