@@ -5,7 +5,6 @@ Sort media queries.
 ## Installation
 
 ```sh
-# Node
 npm install sort-media-queries --save
 ```
 
